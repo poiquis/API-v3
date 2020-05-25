@@ -1,5 +1,5 @@
 # API v3
- api -> pasta de serviço /n
+ api -> pasta de serviço
     -> Api.php - classes
     -> test_api.php - controle
 work -> pasta com arquivos para consumir a API
