@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: #212121;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .quadrado {
+        width: 90%;
+        margin: 20px auto 0;
+    }
+    .linha {
+        width: 100%;
+        padding: 11px;
+        box-sizing: border-box;
+        margin-bottom: 1px;
+        display: grid;
+        grid-template-columns: 80% 20%;
+        text-decoration: none;
+        color: #fff;
+        background-color: #005f56;
+    }
+    
+    .linhaLnk {
+        width: 100%;
+        padding: 11px;
+        box-sizing: border-box;
+        margin-bottom: 1px;
+        display: grid;
+        grid-template-columns: 3% 67% 20% 10%;
+        text-decoration: none;
+        background-color: #009688;
+        color: #fff;
+    }
+
+    .linhaTpo {
+        width: 100%;
+        padding: 11px;
+        box-sizing: border-box;
+        margin-bottom: 1px;
+        display: grid;
+        grid-template-columns: 3% 67% 20% 10%;
+        text-decoration: none;
+        background-color: #008174;
+        color: #fff;
+    }
+
+    .corpoAdc {
+        width: 100%;
+        min-height: 400px;
+        padding: 11px;
+        box-sizing: border-box;
+        margin-bottom: 1px;
+        background-color: #009688;
+        color: #fff;
+    }
+
+    .corpoVda {
+        width: 100%;
+        min-height: 330px;
+        padding: 11px;
+        box-sizing: border-box;
+        margin-bottom: 1px;
+        background-color: #009688;
+        color: #fff;
+
+        display: grid;
+        grid-template-columns: 80% 20%;
+    }
+    
+    .lnVendas {
+        width: 100%;
+    }
+    
+    .vdaItem {
+        width: 100%;
+        background-color: rgb(0, 0, 0, 0.25);
+        display: grid;
+        grid-template-columns: 80% 20%;
+        margin-bottom: 2px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    
+    .itmVda {
+        width: 100%;
+    }
+
+    .itmVdaVal {
+        width: 100%;
+        text-align: end;
+    }
+    
+    .btnVendas {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    .btnVda {
+        background-color: rgb(0, 0, 0, 0.25);
+        padding: 40px 20px;
+        border-radius: 5px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .btnVda:hover {
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+
+    .linhaLnk:hover {
+        background-color: #65cfc5;
+        color: #000;
+    }
+
+    .corTopo {
+        background-color: #005a5f;
+    }
+
+    .nTopo {
+        width: 100%;
+        font-weight: 700;
+        font-size: 1.5em;
+        padding: 10px;
+    }
+
+    .nTopoMsg {
+        font-weight: 400;
+        font-size: 0.8em;
+        padding: 10px;
+        color: #88bcfd;
+    }
+
+    .nTopoMsg a {
+        padding: 10px;
+        color: #73ff00;
+        text-decoration: none;
+    }
+
+    .nTopoMsg a:hover {
+        color: #ff6219;
+    }
+
+    .nlink {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .nlink a {
+        font-weight: 400;
+        font-size: 1em;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .nlink a:hover {
+        color: rgb(0, 255, 234);
+    }
+
+    .nvendedor {
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+
+    .nid {
+        font-weight: 400;
+    }
+
+    .nemail {
+        font-weight: 400;
+    }
+
+    .ncomis {
+        text-align: end;
+        font-weight: 700;
+    }
+
+
+    /*
+    cadastro
+    */
+
+    .ncampo {
+        width: 100%;
+        padding-bottom: 5px;
+        color: #fff;
+    }
+    
+    .ncampo input {
+        font-size: 1.2em;
+        padding: 5px;
+        border-radius: 4px;
+        width: 30%;
+        border: none;
+    }
+    
+    .nbtn {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .btnEnviar {
+        font-weight: 400;
+        font-size: 1em;
+        padding: 10px;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        color: #fff;
+        background-color: #00373a;
+    }
+    .btnEnviar:hover {
+        color: #00373a;
+        background-color: #fff;
+    }
+
